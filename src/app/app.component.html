@@ -1,0 +1,6 @@
+
+<app-header></app-header>
+
+<data-collection [displayedColumns]="['id','name', 'status', 'species', 'type', 'gender']"
+                 [data]="dataService$|async">
+</data-collection>
